@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Mon site avec Bootstrap</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Liaisons aux fichiers css de Bootstrap -->
+	<link href="dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+	<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	  <script src="assets/js/html5shiv.js"></script>
+	  <script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+	<style>
+	body {
+		margin: 10px;
+	}
+	.titre {
+		clear: both;
+		padding: 0 0 10px 10px;
+		border-left: 3px solid #046380;
+		border-bottom: 3px solid #046380;
+		color: #046380;
+	}
+	.boite {
+		width: 600px;
+	}
+	</style>
+</head>
+<body>
+<!-- Les tableaux en pleine largeur -->
+<h2 class="titre">Les tableaux en pleine largeur</h2>
+<table class="table">
+	<thead>
+		<tr>
+			<th>Numéro</th>
+			<th>Titre</th>
+			<th>Auteur</th>
+			<th>Pages</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>La nuit</td>
+			<td>Bidule</td>
+			<td>234</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>L'aube</td>
+			<td>Truc</td>
+			<td>194</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Le jour</td>
+			<td>Machin</td>
+			<td>334</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Le crépuscule</td>
+			<td>Tartempion</td>
+			<td>234</td>
+		</tr>
+	</tbody>
+</table>
+
+<!-- Les tableaux à largeur fixe -->
+<h2 class="titre">Les tableaux à largeur fixe</h2>
+<div class="boite">
+<table class="table">
+	<thead>
+		<tr>
+			<th>Numéro</th>
+			<th>Titre</th>
+			<th>Auteur</th>
+			<th>Pages</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>La nuit</td>
+			<td>Bidule</td>
+			<td>234</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>L'aube</td>
+			<td>Truc</td>
+			<td>194</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Le jour</td>
+			<td>Machin</td>
+			<td>334</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Le crépuscule</td>
+			<td>Tartempion</td>
+			<td>234</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<!-- Les lignes en alternance -->
+<h2 class="titre">Les lignes en alternance</h2>
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Numéro</th>
+			<th>Titre</th>
+			<th>Auteur</th>
+			<th>Pages</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>La nuit</td>
+			<td>Bidule</td>
+			<td>234</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>L'aube</td>
+			<td>Truc</td>
+			<td>194</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Le jour</td>
+			<td>Machin</td>
+			<td>334</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Le crépuscule</td>
+			<td>Tartempion</td>
+			<td>234</td>
+		</tr>
+	</tbody>
+</table>
+
+<!-- Les tableaux encadrés -->
+<h2 class="titre">Les tableaux encadrés</h2>
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th>Numéro</th>
+			<th>Titre</th>
+			<th>Auteur</th>
+			<th>Pages</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>La nuit</td>
+			<td>Bidule</td>
+			<td>234</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>L'aube</td>
+			<td>Truc</td>
+			<td>194</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Le jour</td>
+			<td>Machin</td>
+			<td>334</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Le crépuscule</td>
+			<td>Tartempion</td>
+			<td>234</td>
+		</tr>
+	</tbody>
+</table>
+
+<!-- Le survol des lignes -->
+<h2 class="titre">Le survol des lignes</h2>
+<table class="table table-hover">
+	<thead>
+		<tr>
+			<th>Numéro</th>
+			<th>Titre</th>
+			<th>Auteur</th>
+			<th>Pages</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>La nuit</td>
+			<td>Bidule</td>
+			<td>234</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>L'aube</td>
+			<td>Truc</td>
+			<td>194</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Le jour</td>
+			<td>Machin</td>
+			<td>334</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Le crépuscule</td>
+			<td>Tartempion</td>
+			<td>234</td>
+		</tr>
+	</tbody>
+</table>
+
+<!-- Les tableaux étroitisés -->
+<h2 class="titre">Les tableaux étroitisés</h2>
+<table class="table table-condensed">
+	<thead>
+		<tr>
+			<th>Numéro</th>
+			<th>Titre</th>
+			<th>Auteur</th>
+			<th>Pages</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>La nuit</td>
+			<td>Bidule</td>
+			<td>234</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>L'aube</td>
+			<td>Truc</td>
+			<td>194</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Le jour</td>
+			<td>Machin</td>
+			<td>334</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Le crépuscule</td>
+			<td>Tartempion</td>
+			<td>234</td>
+		</tr>
+	</tbody>
+</table>
+
+<!-- Les mises en évidence colorée -->
+<h2 class="titre">Les mises en évidence colorée</h2>
+<table class="table">
+	<thead>
+		<tr class="active">
+			<th>Numéro</th>
+			<th>Titre</th>
+			<th>Auteur</th>
+			<th>Pages</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>La nuit</td>
+			<td>Bidule</td>
+			<td>234</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td class="warning">L'aube</td>
+			<td>Truc</td>
+			<td>194</td>
+		</tr>
+		<tr class="success">
+			<td>3</td>
+			<td>Le jour</td>
+			<td>Machin</td>
+			<td>334</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>Le crépuscule</td>
+			<td>Tartempion</td>
+			<td class="danger">234</td>
+		</tr>
+	</tbody>
+</table>
+
+<!-- Les tableaux adaptatifs -->
+<h2 class="titre">Les tableaux adaptatifs</h2>
+<div class="table-responsive">
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Numéro</th>
+				<th>Titre</th>
+				<th>Auteur</th>
+				<th>Pages</th>
+				<th>Editeur</th>
+				<th>Prix</th>
+				<th>ePub</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>La nuit</td>
+				<td>Bidule</td>
+				<td>234</td>
+				<td>Editions Jaune</td>
+				<td>23 euros</td>
+				<td>Oui</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>L'aube</td>
+				<td>Truc</td>
+				<td>194</td>
+				<td>Editions Bleue</td>
+				<td>20 euros</td>
+				<td>Oui</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Le jour</td>
+				<td>Machin</td>
+				<td>334</td>
+				<td>Editions Verte</td>
+				<td>21 euros</td>
+				<td>Non</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Le crépuscule</td>
+				<td>Tartempion</td>
+				<td>234</td>
+				<td>Editions Rouge</td>
+				<td>21 euros</td>
+				<td>Oui</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<p>&nbsp;</p>
+<script src="assets/js/jquery.js" type="text/javascript"></script>
+<script src="dist/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>

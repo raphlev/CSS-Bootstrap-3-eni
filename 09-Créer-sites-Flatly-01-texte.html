@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Mon site avec Bootstrap</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Liaisons aux fichiers css de Bootstrap -->
+	<link href="dist/css/bootstrap.min.css" rel="stylesheet" />
+	<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	  <script src="assets/js/html5shiv.js"></script>
+	  <script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+	<style>
+	body {
+		margin: 10px;
+	}
+	.titre {
+		clear: both;
+		padding: 0 0 10px 10px;
+		border-left: 3px solid #046380;
+		border-bottom: 3px solid #046380;
+		color: #046380;
+	}
+	</style>
+</head>
+<body>
+<!-- Styles sur le body -->
+<h2 class="titre">Paragraphe standard</h2>
+<p>Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+<h2 class="titre">Paragraphe avec .lead</h2>
+<p class="lead">Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.</p>
+
+<!-- Les en-têtes -->
+<h2 class="titre">Les en-têtes Hx</h2>
+<h1>En-tête de niveau 1</h1>
+<h2>En-tête de niveau 2</h2>
+<h3>En-tête de niveau 3</h3>
+<h4>En-tête de niveau 4</h4>
+<h5>En-tête de niveau 5</h5>
+<h6>En-tête de niveau 6</h6>
+
+<!-- Les mises en évidence -->
+<h2 class="titre">Les mises en évidence</h2>
+<p>Maecenas <strong>faucibus</strong> mollis <em>interdum</em>. Etiam porta sem <small>texte en small : malesuada magna</small> mollis euismod.</p>
+
+<!-- les alignements -->
+<h2 class="titre">L’alignement du texte</h2>
+<p class="text-left">Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+<p class="text-center">Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+<p  class="text-right">Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+
+<!-- La couleur du texte -->
+<h2 class="titre">Le texte coloré</h2>
+<p>Cras mattis <span class="text-muted">consectetur purus</span> sit amet fermentum. <span class="text-primary">Maecenas faucibus</span> mollis interdum. Curabitur <span class="text-success">blandit tempus</span> porttitor. Integer <span class="text-info">posuere erat</span> a ante venenatis dapibus posuere velit aliquet. <span class="text-warning">Vestibulum id ligula</span> porta felis euismod semper. <span class="text-danger">Nullam quis risus</span> eget urna mollis ornare vel eu leo. Donec sed odio dui.</p>
+
+<!-- Les abréviations -->
+<h2 class="titre">Les abréviations</h2>
+<p>Vous utilisez l'<abbr title="HyperText Markup Language v4">html 4</abbr> ou l'<abbr title="HyperText Markup Language v5" class="initialism">html5</abbr></p>
+
+<!-- Les adresses -->
+<h2 class="titre">Les adresses</h2>
+<address>
+  <strong>Editions ENI</strong><br />
+  Rue Benjamin Franklin<br />
+  ZAC Moulin Neuf<br>
+  44800 Saint-Herblain<br />
+  <abbr title="Téléphone">Tel:</abbr> 02 51 80 15 15
+</address>
+
+<!-- Les citations -->
+<h1 class="titre">Les citations</h1>
+<blockquote>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</blockquote>
+<blockquote><p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p></blockquote>
+<blockquote><p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam. <small>Pellentesque ornare sem lacinia quam venenatis vestibulum</small></p></blockquote>
+<blockquote class="pull-right"><p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam. <small>Pellentesque ornare sem lacinia quam venenatis vestibulum</small></p></blockquote>
+
+<!-- Les listes -->
+<h2 class="titre">Les listes</h2>
+<ul>
+	<li>Pomme</li>
+	<li>Fraise</li>
+	<li>Ananas</li>
+</ul>
+<ol>
+	<li>Pomme</li>
+	<li>Fraise</li>
+	<li>Ananas</li>
+</ol>
+<ul class="list-unstyled">
+	<li>Pomme</li>
+	<li>Fraise</li>
+	<li>Ananas</li>
+</ul>
+<ul class="list-inline">
+	<li>Pomme</li>
+	<li>Fraise</li>
+	<li>Ananas</li>
+</ul>
+<!-- Liste de définition -->
+<h5>Définitions</h5>
+<dl>
+  <dt>Fermentum Porta Parturient</dt>
+  <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</dd>
+  <dt>Commodo Euismod Mattis Quam</dt>
+  <dd>Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.</dd>
+  <dt>Parturient Consectetur Nullam Venenatis Sit</dt>
+  <dd>Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</dd>
+</dl>
+<dl class="dl-horizontal">
+  <dt>Fermentum Porta</dt>
+  <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</dd>
+  <dt>Commodo Euismod Mattis Quam</dt>
+  <dd>Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.</dd>
+  <dt>Parturient</dt>
+  <dd>Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</dd>
+</dl>
+
+<!-- Le code -->
+<h2 class="titre">Le code</h2>
+<p>Utilisez ce code : <code>&lt;html lang="fr"&gt;</code> pour déclarer la page.</p>
+<p>Voilà le début d'un document HTML5</p>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="fr"&gt;
+&lt;head&gt;
+...
+&lt;/head&gt;
+</pre>
+<p>Les styles CSS :</p>
+<pre class="pre-scrollable">
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11 {
+    float: left;
+  }
+  .col-sm-1 {
+    width: 8.333333333333332%;
+  }
+  .col-sm-2 {
+    width: 16.666666666666664%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33333333333333%;
+  }
+  .col-sm-5 {
+    width: 41.66666666666667%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.333333333333336%;
+  }
+  .col-sm-8 {
+    width: 66.66666666666666%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: 83.33333333333334%;
+  }
+  .col-sm-11 {
+    width: 91.66666666666666%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  }
+</pre>
+<p>&nbsp;</p>
+<!-- Les liaisons aux scripts -->
+<script src="assets/js/jquery.js" type="text/javascript"></script>
+<script src="dist/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>

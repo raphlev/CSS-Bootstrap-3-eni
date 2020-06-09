@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Mon site avec Bootstrap</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Liaisons aux fichiers css de Bootstrap -->
+	<link href="dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+	<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	  <script src="assets/js/html5shiv.js"></script>
+	  <script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+	<style>
+	body {
+		margin: 10px;
+	}
+	.titre {
+		clear: both;
+		padding: 0 0 10px 10px;
+		border-left: 3px solid #046380;
+		border-bottom: 3px solid #046380;
+		color: #046380;
+	}
+	</style>
+</head>
+<body>
+<!-- Les images aux coins arrondis -->
+<h2 class="titre">Les images aux coins arrondis</h2>
+<p><img src="tigre.jpg" alt="Tigre" class="img-rounded"></p>
+<p>&nbsp;</p>
+
+<!-- Les images dans un ovale et un cercle -->
+<h2 class="titre">Les images dans un ovale et un cercle</h2>
+<p><img src="tigre.jpg" alt="Tigre" class="img-circle"></p>
+<p><img src="desert.jpg" width="200" height="200" alt="Désert" class="img-circle"></p>
+<p>&nbsp;</p>
+
+<!-- Les images avec un cadre -->
+<h2 class="titre">Les images avec un cadre</h2>
+<p><img src="tigre.jpg" alt="Tigre" class="img-thumbnail"></p>
+<p>&nbsp;</p>
+<script src="assets/js/jquery.js" type="text/javascript"></script>
+<script src="dist/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>

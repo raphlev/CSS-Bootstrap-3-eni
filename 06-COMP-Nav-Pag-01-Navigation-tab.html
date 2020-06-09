@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Mon site avec Bootstrap</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Liaisons aux fichiers css de Bootstrap -->
+	<link href="dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+	<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	  <script src="assets/js/html5shiv.js"></script>
+	  <script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+	<style>
+	body {
+		margin: 10px;
+	}
+	.boite1 {
+		width: 200px;
+	}
+	.boite2 {
+		width: 400px;
+	}
+	.titre {
+		clear: both;
+		padding: 0 0 10px 10px;
+		border-left: 3px solid #046380;
+		border-bottom: 3px solid #046380;
+		color: #046380;
+	}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<!-- Navigation par onglets -->
+		<h2 class="titre">La navigation par onglet</h2>
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#">Accueil</a></li>
+			<li><a href="#">Projet</a></li>
+			<li><a href="#">Equipe</a></li>
+		</ul>
+		<p>&nbsp;</p>
+	</div>
+	<div class="row">
+		<!-- Navigation par bouton -->
+		<h2 class="titre">La navigation par bouton</h2>
+		<ul class="nav nav-pills">
+			<li class="active"><a href="#">Accueil</a></li>
+			<li><a href="#">Projet</a></li>
+			<li><a href="#">Equipe</a></li>
+		</ul>
+		<p>&nbsp;</p>
+	</div>
+	<div class="row">
+		<!-- Navigation par bouton verticaux -->
+		<h2 class="titre">La navigation par bouton verticaux</h2>
+		<div class="boite1">
+			<ul class="nav nav-pills nav-stacked">
+				<li class="active"><a href="#">Accueil</a></li>
+				<li><a href="#">Projet</a></li>
+				<li><a href="#">Equipe</a></li>
+			</ul>
+		</div>
+		<p>&nbsp;</p>
+	</div>
+	<div class="row">
+		<!-- Navigation par onglets justifiés -->
+		<h2 class="titre">La navigation par onglet justifiés</h2>
+			<div class="boite2">
+			<ul class="nav nav-tabs nav-justified">
+				<li class="active"><a href="#">Accueil</a></li>
+				<li><a href="#">Projet</a></li>
+				<li><a href="#">Equipe</a></li>
+			</ul>
+		</div>
+		<p>&nbsp;</p>
+	</div>
+	<div class="row">
+		<!-- Les liens inactifs -->
+		<h2 class="titre">Les liens inactifs</h2>
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#">Accueil</a></li>
+			<li class="disabled"><a href="#">Projet</a></li>
+			<li><a href="#">Equipe</a></li>
+		</ul>
+		<p>&nbsp;</p>
+	</div>
+	<div class="row">
+		<!-- Un bouton déroulant -->
+		<h2 class="titre">Un bouton déroulant</h2>
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#">Accueil</a></li>
+			<li><a href="#">Projet</a></li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Equipe <span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="#">Designer</a></li>
+					<li><a href="#">Intégrateur</a></li>
+					<li><a href="#">Développeur</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Chef de projet</a></li>
+				</ul>
+			</li>
+		</ul>
+		<p>&nbsp;</p>
+	</div>
+</div>
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<!-- Les liaisons aux scripts -->
+<script src="assets/js/jquery.js" type="text/javascript"></script>
+<script src="dist/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>
